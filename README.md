@@ -1,24 +1,16 @@
-# README
+# Daha önce rails kurulu değilse
+* ruby
+* nodejs
+* npm
+* yarn
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+kurulu olması gerekiyor. Yarn'ı direkt değil npm aracılığı ile yüklemek gerekiyor, yoksa webpacker sorun çıkarıyor. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+ sudo gem install rails
+```
+# Run
+ ```
+ bundle install
+ rails s
+ ```
