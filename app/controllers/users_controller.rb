@@ -14,9 +14,6 @@ class UsersController < ApplicationController
 
     def index
         @users = User.all
-        # command = 'curl -s ' + image + ' | base64'
-        # i = Open3.capture3(command)
-        #render json: { base64: Base64.encode64(@users.image) }, status: :ok
         render :show, status: :ok
     end
     
